@@ -1,7 +1,8 @@
-maru = Cat.new 
-maru.name = "Maru"
+class Cat
+  attr_accessor :name
 
-maru.name
-
-maru.meow
+  def meow
+    puts "meow!"
+  end
+end
 
