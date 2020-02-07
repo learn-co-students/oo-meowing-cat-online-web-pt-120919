@@ -1,14 +1,28 @@
-class Cat
-  attr_accessor(:name, :meow)
+class Cat 
+ attr_accessor :name 
+ 
+ def initialize(name)
+   @name = name
+ end
+ 
+ def meow
+   puts "meow!"
+ end
+ 
+ 
+ def name
+   @name 
+ end
 end
 
-maru = Cat.new
-maru.name = "Maru"
-end
 
-maru = Cat.new
-maru.meow = "meow!"
-  puts "meow!"
+sparkles = Cat.new("Sparkles")
 
+sparkles.name 
+
+sparkles.meow
 
 
+
+ 
+ 
